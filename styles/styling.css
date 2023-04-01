@@ -1,16 +1,30 @@
 body {
-  background: burlywood;
+  background: rgb(233, 206, 170);
 }
 
 h1 {
-    color:black;
-    font-family: 'Playfair Display', serif;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+p,
+h2 {
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.hero-section {
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px 25px;
+  text-align: right;
+  padding: 70px;
+  margin: 40px;
+}
+
+.hero-section h2 {
+    font-size: 25px;
     font-weight: bold;
+    padding: 20px auto;
 }
-p {
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-}
-/*font-family: 'Kaushan Script', cursive;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
