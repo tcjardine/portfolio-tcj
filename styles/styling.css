@@ -8,18 +8,25 @@ h1 {
   font-weight: bold;
 }
 p,
-h2 {
+h2,
+h3,
+h4 {
   font-weight: normal;
   font-family: "Poppins", sans-serif;
 }
+h3 {
+  font-size: 18px;
+}
+#skills {
+  text-align: center;
+}
 
 .hero-section {
-  border-style: solid;
-  border-color: black;
   border-radius: 15px 25px;
   text-align: right;
-  padding: 155px 30px;
+  padding: 160px 350px;
   margin: 40px;
+  max-width: 1500px;
 }
 
 .hero-section h2 {
@@ -38,4 +45,17 @@ h2 {
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   box-shadow: 12px 12px 2px 1px rgba(76, 78, 72, 0.2);
+}
+.city-la {
+  border-radius: 30px 15px;
+}
+@media (max-width: 1100px) {
+  .hero-section {
+    padding: 0%;
+    text-align: center;
+  }
+  .city-la {
+    max-width: 80%;
+    padding-bottom: 20px;
+  }
 }
