@@ -24,7 +24,7 @@ h3 {
 .hero-section {
   border-radius: 15px 25px;
   text-align: right;
-  padding: 160px 350px;
+  padding: 160px 300px;
   margin: 40px;
   max-width: 1500px;
 }
@@ -45,8 +45,17 @@ h3 {
   transition-timing-function: ease-out;
   box-shadow: 12px 12px 2px 1px rgba(76, 78, 72, 0.2);
 }
+.navbar-color {
+  background-color: rgb(247, 226, 200);
+}
+.nav-link {
+  font-family: "Poppins", sans-serif;
+}
 .city-la {
   border-radius: 50px 25px;
+}
+.logo {
+  max-width: 100px;
 }
 @media (max-width: 1100px) {
   .hero-section {
@@ -56,5 +65,8 @@ h3 {
   .city-la {
     max-width: 75%;
     padding-bottom: 20px;
+  }
+  .logo {
+    max-width: 50px;
   }
 }
