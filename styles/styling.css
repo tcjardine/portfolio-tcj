@@ -31,7 +31,6 @@ h3 {
 
 .hero-section h2 {
   font-size: 25px;
-  font-weight: bold;
   padding: 20px auto;
 }
 .btn-main {
@@ -47,7 +46,7 @@ h3 {
   box-shadow: 12px 12px 2px 1px rgba(76, 78, 72, 0.2);
 }
 .city-la {
-  border-radius: 30px 15px;
+  border-radius: 50px 25px;
 }
 @media (max-width: 1100px) {
   .hero-section {
@@ -55,7 +54,7 @@ h3 {
     text-align: center;
   }
   .city-la {
-    max-width: 80%;
+    max-width: 75%;
     padding-bottom: 20px;
   }
 }
