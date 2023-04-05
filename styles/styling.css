@@ -17,14 +17,11 @@ h4 {
 h3 {
   font-size: 18px;
 }
-#skills {
-  text-align: center;
-}
 
 .hero-section {
   border-radius: 15px 25px;
   text-align: right;
-  padding: 160px 300px;
+  padding: 100px 300px;
   margin: 40px;
   max-width: 1500px;
 }
@@ -61,6 +58,25 @@ h3 {
   border-style: double;
   border-radius: 20px 5px;
 }
+#skills {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.skill-icon {
+  display: block;
+  font-size: 35px;
+  text-align: center;
+}
+.container-skills {
+  max-width: 500px;
+  margin: 30px auto;
+}
+.text-center {
+  font-family: "Poppins", sans-serif;
+}
+
 @media (max-width: 1100px) {
   .hero-section {
     padding: 0%;
