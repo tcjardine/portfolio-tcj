@@ -11,7 +11,7 @@ body {
 
 h1 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   font-weight: bold;
 }
 p,
@@ -19,7 +19,7 @@ h2,
 h3,
 h4 {
   font-weight: normal;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 h3 {
   font-size: 18px;
@@ -40,7 +40,7 @@ h3 {
 .btn-main {
   color: white;
   background-color: rgb(14, 13, 11);
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
   border-radius: 25px;
 }
 .btn-main:hover {
@@ -54,7 +54,7 @@ h3 {
   padding: 5px 10px;
 }
 .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 .frontpg-photo,
 .streetphoto {
@@ -68,7 +68,7 @@ h3 {
 }
 #skills {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   text-decoration: underline;
   font-size: 20px;
 }
@@ -82,7 +82,7 @@ h3 {
   margin: 30px auto;
 }
 .text-center {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
 }
 .footer-container {
   padding: 50px;
@@ -107,9 +107,6 @@ h3 {
   .frontpg-photo {
     max-width: 75%;
     padding-bottom: 20px;
-  }
-  .btn-main {
-    text-align: center;
   }
   .logo {
     max-width: 50px;
