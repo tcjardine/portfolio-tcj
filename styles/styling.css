@@ -89,9 +89,18 @@ h3 {
   text-align: center;
   max-width: 925px;
 }
+.connect {
+  font-size: 25px;
+}
+.coded-by {
+  font-size: 13px;
+}
+#github-source {
+  text-decoration: none;
+}
 .social-icon {
   margin: auto 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .social-icon:hover {
   transition-duration: 0.3s;
@@ -129,7 +138,7 @@ h3 {
     text-align: center;
   }
   .navbar-color {
-    padding: 15px 10px;
+    padding: 15px 40px;
   }
   .frontpg-photo {
     max-width: 75%;
@@ -157,6 +166,16 @@ h3 {
     max-width: 60%;
   }
   .container-contactme h3 {
+    font-size: 15px;
+  }
+  .coded-by {
+    font-size: 10px;
+  }
+  .connect {
+    font-size: 15px;
+  }
+  .social-icon {
+    margin: auto 10px;
     font-size: 15px;
   }
 }
