@@ -51,7 +51,7 @@ h3 {
 }
 .navbar-color {
   background-color: rgb(247, 226, 200);
-  padding: 5px 10px;
+  padding: 15px 120px;
 }
 .nav-link {
   font-family: var(--default-font);
@@ -119,6 +119,9 @@ h3 {
     padding-bottom: 30px;
     text-align: center;
   }
+  .navbar-color {
+    padding: 15px 10px;
+  }
   .frontpg-photo {
     max-width: 75%;
     padding-bottom: 20px;
@@ -143,5 +146,8 @@ h3 {
   .streetphoto {
     margin-top: 20px;
     max-width: 60%;
+  }
+  .container-contactme h3 {
+    font-size: 15px;
   }
 }
