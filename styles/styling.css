@@ -108,16 +108,13 @@ h3 {
   box-shadow: 12px 5px 2px 1px rgba(76, 78, 72, 0.2);
 }
 .aboutme-container {
-  margin: 20px auto;
-  padding: 100px 150px;
+  padding: 100px 80px;
   line-height: 2;
 }
 .work-photo {
   border-radius: 15px;
 }
-.container-work {
-  max-width: fit-content;
-}
+
 .container-contactme {
   margin-top: 130px;
 }
@@ -141,7 +138,7 @@ h3 {
     text-align: center;
   }
   .navbar-color {
-    padding: 15px 20px;
+    padding: 15px 10px;
   }
   .frontpg-photo {
     max-width: 75%;
@@ -157,12 +154,15 @@ h3 {
     margin-bottom: 20px;
   }
   .aboutme-container {
-    padding: 10px;
-    font-size: 15px;
-    line-height: 3;
+    max-width: fit-content;
+    font-size: 12px;
+    line-height: 3.5;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 60px;
+  }
+  .container-work {
+    max-width: fit-content;
   }
   .streetphoto {
     margin-top: 20px;
