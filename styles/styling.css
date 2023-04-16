@@ -115,6 +115,9 @@ h3 {
 .work-photo {
   border-radius: 15px;
 }
+.container-work {
+  max-width: fit-content;
+}
 .container-contactme {
   margin-top: 130px;
 }
