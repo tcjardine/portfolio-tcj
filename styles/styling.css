@@ -109,7 +109,7 @@ h3 {
 }
 .aboutme-container {
   padding: 100px 80px;
-  line-height: 2;
+  line-height: 3;
 }
 .work-photo {
   border-radius: 15px;
@@ -155,7 +155,7 @@ h3 {
   }
   .aboutme-container {
     max-width: fit-content;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 3.5;
     text-align: center;
     margin-top: 30px;
