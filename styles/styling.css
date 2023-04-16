@@ -51,7 +51,7 @@ h3 {
 }
 .navbar-color {
   background-color: rgb(247, 226, 200);
-  padding: 15px 120px;
+  padding: 15px 160px;
 }
 .nav-link {
   font-family: var(--default-font);
@@ -138,7 +138,7 @@ h3 {
     text-align: center;
   }
   .navbar-color {
-    padding: 15px 40px;
+    padding: 15px 20px;
   }
   .frontpg-photo {
     max-width: 75%;
@@ -176,6 +176,7 @@ h3 {
   }
   .social-icon {
     margin: auto 10px;
+    padding: 0%;
     font-size: 15px;
   }
   .spotify {
