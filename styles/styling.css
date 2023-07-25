@@ -137,6 +137,9 @@ h3 {
     padding-bottom: 30px;
     text-align: center;
   }
+  .hero-section h2 {
+    font-size: 22px;
+  }
   .navbar-color {
     padding: 15px 10px;
   }
